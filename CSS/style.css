@@ -1,0 +1,107 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 85%;
+    max-width: 1320px;
+    margin: auto;
+    /* background-color: brown; */
+}
+
+header {
+    /* background-color: aqua; */
+}
+
+.banner {
+    margin-top: 80px;
+    margin-bottom: 80px;
+    background-image: url('../images/Rectangle\ 14.png');
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    border-radius: 16px;
+   
+}
+
+.banner-shadow {
+
+border-radius: 16px;
+background-image: linear-gradient(black, transparent);
+}
+
+.banner-text-block {
+    width: 650px;
+    margin: auto;
+    text-transform: capitalize;
+    text-align: center;
+    padding: 150px 0px;
+    color: #ffffff;
+    font-family: 'Merriweather';
+}
+
+.banner-text-block h1 {
+    font-size: 72px;
+    margin: 0;
+    margin-top: 25px;
+    
+}
+
+.banner-text-block h2 {
+    font-size: 32px;
+    font-style: normal;
+    font-weight: lighter;
+    margin: 0;   
+}
+
+/* Section 1 */
+
+/.section1-content {
+    justify-content: center;
+    align-items: center;
+ } 
+
+.textblock {
+    text-align: center;
+    font-family: 'Inter';
+}
+
+.off {
+    margin-top: 100px;
+    color: red;
+    font-size: 88px;
+    font-weight: 700;
+}
+
+.holidays {
+    text-transform: uppercase;
+    font-size: 24px;
+    color: red;
+    margin-top: 50px;
+}
+
+.categories {
+    text-transform: uppercase;
+    font-size: 48px;
+    font-weight: 600;
+    margin-top: 10px;
+}
+
+.image-block-section1 {
+    
+    width: 1320px;
+    height: 650px;
+    margin: auto;
+    justify-content: center;
+    display: flex;
+
+}
+
+.image-block-section1 img {
+    margin-top: 100px;
+    width: 803px;
+    height: 500px;
+    align-items:center;
+    justify-content: center;
+    
+}
