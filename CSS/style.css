@@ -172,8 +172,8 @@ position: relative;
     .background {
     text-align: center;
     border-radius: 16px;
-    background-image: linear-gradient(rgb(255, 222, 222), transparent);
-    margin-bottom: 200px;
+    background-image: linear-gradient(rgb(251, 212, 212), rgb(255, 255, 255));
+    margin-bottom: 150px;
 }
 
 .place-date-time {
@@ -206,7 +206,8 @@ position: relative;
     text-decoration: none;
     color: #ffffff;
     text-transform: uppercase;background-color: red;
-   
+    display: inline-block;
+    margin-bottom: 100px; 
    
    
 }
@@ -266,8 +267,7 @@ position: relative;
     font-size: 20px;
     line-height: 30px;
     font-weight: 300;
-    padding: 0 25px;
-    
+    padding: 0 25px;    
 }
 
 .text-block-right h1 {
@@ -275,14 +275,125 @@ position: relative;
    font-size: 48px;
    font-weight: 600;
    margin: 0;
-   margin-top: 80px;
-   margin-bottom: 25px;
-   
-    
+   margin-top: 150px;
+   margin-bottom: 30px;
+
 }
 
 .text-block-right p {
-    margin-bottom: 35px;
-    
-     
+    margin-bottom: 50px;
  }
+
+
+ /* . Section 5 */
+
+.section5-content {
+width: 100%;
+margin: auto;
+justify-content: center;
+align-items: center;
+}
+
+.section5-text-block {
+   
+  
+    text-align: center;
+    justify-content: center;
+    font-family: 'Inter';
+    font-weight: 300;
+}
+
+
+.section5-text-block h2 {
+    text-transform: uppercase;
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.section5-text-block span {
+    color: red;
+}
+
+.section5-text-block h1 {
+    margin: 0;
+    font-family: 'Merriweather';
+    font-weight: 900;
+    font-size: 72px;
+    text-transform: capitalize;
+}
+
+.section5-text-block p {
+    
+    text-align: center;
+    line-height: 27px;
+    margin-bottom: 50px;
+}
+
+.section5-image-block {
+    display: flex;
+    justify-content: flex-end;
+}
+.photo-block {
+    display: flex;
+   
+}
+
+.photo-girl-bag {
+    width: 429px;
+    height: 433px;
+    background-image: url('../images/Women\ red\ bag.png');
+    background-repeat: no-repeat; 
+    display: flex;
+    align-items: center;
+}
+
+
+.photo-girl-bag img {
+    width: 310px ;
+    height: 310px;
+    margin-left: -160px;
+    margin-top: 30px;
+    
+}
+
+/*
+.circle-50-percent {
+    
+    border-radius: 50%;
+    background-color: red;
+    justify-content: center;
+    align-items: center;
+    border: 5px solid white;
+    display: flex;
+}
+
+.circle-50-percent p {
+    font-size: 72px;
+    font-family: 'Inter';
+    color: #ffffff;
+    overflow: hidden;
+}
+
+.circle-50-percent p span {
+font-size: 32px;
+
+}*/
+
+.vector-block {
+    width: 100%;
+    height: 229px;
+    background-color: red;
+    border-radius: 16px 0 16px 16px;
+    display: flex; 
+    align-items: flex-end;
+}
+
+.vector-image img {
+    width: 675px;
+    height: 578px;
+    margin-bottom: 30px;
+    margin-left: 100px;
+}
+
+
+
