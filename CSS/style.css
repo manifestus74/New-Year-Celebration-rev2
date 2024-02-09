@@ -356,29 +356,6 @@ align-items: center;
     
 }
 
-/*
-.circle-50-percent {
-    
-    border-radius: 50%;
-    background-color: red;
-    justify-content: center;
-    align-items: center;
-    border: 5px solid white;
-    display: flex;
-}
-
-.circle-50-percent p {
-    font-size: 72px;
-    font-family: 'Inter';
-    color: #ffffff;
-    overflow: hidden;
-}
-
-.circle-50-percent p span {
-font-size: 32px;
-
-}*/
-
 .vector-block {
     width: 100%;
     height: 229px;
@@ -386,14 +363,234 @@ font-size: 32px;
     border-radius: 16px 0 16px 16px;
     display: flex; 
     align-items: flex-end;
+    margin-bottom: 100px;
 }
 
 .vector-image img {
     width: 675px;
     height: 578px;
-    margin-bottom: 30px;
-    margin-left: 100px;
+    margin-bottom: 80px;
+    margin-left: 80px;
 }
 
 
+/* Section 6 */
 
+.section6-content {
+
+    text-align: left;
+    align-items: center;
+    font-family: 'Inter';
+    font-weight: 200;
+    margin: 0;
+    
+    
+}
+
+.section6-text-block {
+    margin-bottom: 50px; 
+}
+
+.section6-text-block h2 {
+text-transform: uppercase;
+color: red;
+font-weight: 500;
+margin: 0;
+font-size: 24px;
+margin-bottom: 20px;
+}
+
+.section6-text-block h1 {
+    text-transform: capitalize;
+    font-size: 48px;
+    margin: 0;
+    font-family: 'Merriweather';
+    margin-bottom: 20px;
+}
+
+.section6-text-block p {
+margin: 0;
+font-size: 20px;
+line-height: 30px;
+font-style: normal;
+
+}
+
+.section6-image-block .raw1 {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    margin-bottom: 20px;
+}
+.section6-image-block .raw2 {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    margin-bottom: 100px;
+}
+ 
+/* Section 7 */
+
+.section7-content {
+    background-color: rgb(255, 240, 240);
+    margin-bottom: 100px;
+    border-radius: 16px;
+}
+
+.section7-icon-block {
+padding: 30px 0px;
+display: flex;
+justify-content: center;
+}
+
+.section7-icon-block img {
+   margin-top: 40px;
+}
+
+.section7-text-block h1 {
+    text-align: center;
+    margin: 0;
+    text-transform: capitalize;
+    font-family: 'Merriweather';
+    font-size: 48px;
+    margin-bottom: 20px;
+
+}
+
+.section7-text-block p {
+    text-align: center;
+    margin: 0;
+    font-family: 'Inter';
+    font-size: 20px;
+    font-weight: 200;
+    line-height: 30px;
+
+}
+
+.section7-input-block {
+margin: auto;
+width: 622px;
+height: 72px;
+display: flex;
+justify-content: center;
+padding: 40px 0 80px 0;
+
+}
+
+.button-Subscribe {
+    width: 210px;
+    height: 72px;
+    background-color: red;
+    border-radius: 0 50px 50px 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    
+}
+
+.button-Subscribe a {
+    text-decoration: none;
+    color: #ffffff;
+    text-align: center;
+    font-family: 'Inter';
+    font-size: 20px;
+    font-weight: 200;
+}
+
+.section7-input-block input {
+    border-radius: 50px 0 0 50px;
+    border-color: transparent;
+}
+
+input::placeholder {
+    color: lightgrey;
+    font-size: 18px;
+    font-family: 'Inter';
+    margin-left: 30px;
+    font-style: normal;
+    font-weight: 200;
+}
+
+
+/*  Footer */
+
+
+footer {
+    background-color: rgba(7, 2, 17, 1);
+    height: 609px;
+    color: #ffffff;
+    margin-bottom: 150px;
+}
+
+.footer-container-content {
+    font-family: 'Inter';
+    font-size: 24px;
+    font-weight: 200;
+    line-height: 40px;
+}
+
+.footer-text-block1 {
+    padding: 100px 0 30px 0;
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.text-left {
+    width: 475px
+}
+
+.text-left p {
+    margin: 0;
+}
+
+.text-right {
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    
+}
+
+.text-right ul {
+    margin: 0;
+    list-style: none;
+    
+}
+
+.text-right ul li img {
+    margin: 0;
+    padding: 0 15px 0 0;
+    margin-bottom: -5px;
+    
+}
+
+hr { 
+    height: 1px;
+    background-color: rgb(20, 12, 35);
+    border: none;
+    
+}
+
+.icons-block {
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    
+}
+
+.icons-block i {
+    padding: 12px;
+    
+}
+
+.footer-text-block2 {
+    padding: 40px 0 40px 0;
+    text-decoration: none;
+    display: flex;
+    justify-content: space-between;
+}
+.text-right a {
+text-decoration: none;
+color: #ffffff;
+}
